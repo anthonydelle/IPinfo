@@ -1,6 +1,8 @@
+import requests
+
+
 class IPinfo(object):
     def __init__(self, givenip=""):
-        import requests
         self.givenip = givenip
         self.ipwebsite = "https://ipinfo.io/"
         self.r = requests.get(self.ipwebsite + self.givenip)
