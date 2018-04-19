@@ -1,5 +1,5 @@
 class IPinfo(object):
-    def __init__(self, givenip =""):
+    def __init__(self, givenip=""):
         import requests
         self.givenip = givenip
         self.ipwebsite = "https://ipinfo.io/"
@@ -32,7 +32,3 @@ class IPinfo(object):
 
     def allinfo(self):
         return self.information
-
-
-
-
