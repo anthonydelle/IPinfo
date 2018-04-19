@@ -1,3 +1,6 @@
-import modules.IPinfo import IPinfo
+from modules.IPinfo import IPinfo
+
+a = IPinfo()
+print(a.ip())
 
 
