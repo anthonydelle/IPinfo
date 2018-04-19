@@ -1,4 +1,4 @@
-from modules.IPinfo import IPinfo
+from modules.ipinfo import IPinfo
 import socket
 import pprint
 
