@@ -30,6 +30,9 @@ class IPinfo(object):
     def phone(self):
         return self.information['phone']
 
+    def allinfo(self):
+        return self.information
+
 
 
 
