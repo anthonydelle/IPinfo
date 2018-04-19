@@ -1,7 +1,9 @@
 class IPinfo(object):
-    def __init__(self):
+    def __init__(self, givenip =""):
         import requests
-        self.r = requests.get('https://ipinfo.io/json')
+        self.givenip = givenip
+        self.ipwebsite = "https://ipinfo.io/"
+        self.r = requests.get(self.ipwebsite + self.givenip)
         self.information = self.r.json()
 
     def ip(self):
