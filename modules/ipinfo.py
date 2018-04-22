@@ -11,6 +11,7 @@ class IPinfo(object):
         self.hostname = self.information["hostname"]
         self.city = self.information["city"]
         self.region = self.information["region"]
-        self.county = self.information["county"]
+        self.country = self.information["country"]
         self.loc = self.information["loc"]
         self.org = self.information["org"]
+        self.phone = self.information["phone"]
